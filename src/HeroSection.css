@@ -1,0 +1,90 @@
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    height: 100%;
+    padding: 0 10%;
+    background-color: #ffffff; /* Customize as per your theme */
+  }
+  
+  .hero-photo img {
+    width: 250px; /* Adjust image size */
+    border-radius: 10%; /* Make it circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional styling */
+  }
+  
+  .hero-content {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #555;
+  }
+  
+.hero-button {
+    padding: 1rem 2rem !important;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    border-radius: 0.5rem !important;
+    cursor: pointer;
+  }
+
+ .hero-button{
+    margin-right: 2rem !important;
+    margin-bottom: 1rem !important;
+    background-color: #393E46 !important;
+    font-size: small;
+  }
+.hero-button:hover{
+  color: white
+}
+  .MERN{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 880px) {
+    .hero-section {
+      display: block; /* or whatever you want instead of flex */
+    }
+    .hero-content {
+      max-width: 100%;
+      text-align: center;
+    }
+    .hero-photo, .about-photo{
+      max-width: 100%;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .hero-photo img,.about-photo img {
+      width: 200px; /* Adjust image size */
+      border-radius: 10%; /* Make it circular */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional styling */
+    }
+  }
+  @media (max-width: 500px) {
+    .about-photo img{
+      max-width: 200px;
+    }
+  }
+  
+  .about-photo img {
+    width: 400px; /* Adjust image size */
+    height: 100%;
+    border-radius: 10%; /* Make it circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional styling */
+  }
+  
+  .bio{
+    font-size: 1rem !important;
+  }

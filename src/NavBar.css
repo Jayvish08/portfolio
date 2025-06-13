@@ -1,0 +1,13 @@
+.Box{
+    padding: 1rem;
+    background-color: #081b29;
+}
+
+body{
+    padding-top: 74px;
+}
+
+.hidden{
+    color: white !important;
+    font-weight: 700 !important;
+}
